@@ -1,0 +1,171 @@
+body {
+    background-color: #000000;
+    color: #fcfcfc;
+    font-family: helvetica, arial, sans serif;
+    font-size: 12pt;
+}
+a { color: #9cf; text-decoration: none; }
+a:link { color: #9cf; }
+a:hover { color: #ffffff; text-decoration: underline; }
+
+dt { color: #fff; font-size: 140% }
+dd { color: #ccc; font-size: 110% }
+
+td { font-size: 80%; padding: 4 4 4 4 }
+
+#wrapper {
+  width: 900px;
+  margin: 0px auto;
+  padding: 6px;
+  /* border: 1px solid #ccc; */
+}
+
+#content {
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+#content div {
+  padding: 10px;
+  float: left;
+  /* border: 1px solid #c0c; */
+}
+
+#content-left {
+  width: 316px;
+}
+
+#content-main {
+  margin-left: 10px;
+    width: 500px;
+}
+
+#content-right {
+  margin-left: 10px;
+    width: 134px;
+}
+
+#logobox {
+        background-image: url('images/logo-21knots5.jpg');
+        background-repeat: no-repeat;
+        /* position: relative;
+        top: 10px;
+        left: 10px;
+        */
+        width: 316;
+        height: 182;
+        /* border: 1px solid #ccc; */
+}
+
+#infobox {
+        position: relative;
+        top: 200px;
+        /* border: 1px solid #ccc; */
+}
+
+#adsense {
+        position: relative;
+        top: 10px;
+        text-align: right;
+}
+
+#insideimage {
+  clear: both;
+  float: right;
+  background-image: url('images/interior2.jpg');
+  background-repeat: no-repeat;
+  position: relative;
+  top: -240px;
+        /* right: 130px; */
+  left: 400px;
+        width: 400px;
+        height: 360px; 
+        /* border: 1px solid #ccc; */
+}
+
+#stylists {
+        /* position: absolute; */
+        position: relative;
+        top: -280px;
+        /* right: 130px; */
+        left: 420px; 
+        width: 400px;
+        height: 360px; 
+        /* border: 1px solid #ccc; */
+}
+
+
+#salondescription {
+  text-align: justify;
+  position: relative;
+  top: 260px;
+  left: -20px;
+  width: 425px;
+  font-size: 120%;
+  color: #9cf;
+  background-color: #333;
+  filter:alpha(opacity=75);
+  -moz-opacity:0.75;
+  -khtml-opacity: 0.75;
+  opacity: 0.75;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
+
+#staff {
+  text-align: justify;
+  position: relative;
+  background-color: #333;
+  top: 300px;
+  left: 0px;
+  font-size: 140%
+  color: #9cf
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
+
+#booking {
+  margin-top: 10px;
+  text-align: justify;
+  position: relative;
+  background-color: #333;
+  top: 300px;
+  left: 0px;
+  font-size: 140%
+  color: #9cf
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
+
+
+
+#facebook {
+  text-align: justify;
+  position: relative;
+  background-color: #333;
+  top: 200px;
+  left: 0px;
+  font-size: 110%
+  color: #9cf
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
+
+#footer {
+        position: relative;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+        top: 200px;
+        /* border: 1px solid #0c0;  */
+        width: 878px;
+        /* background-color: #030303;  */
+}
+
+#bottom {
+        margin-top: 10px;
+        position: relative;
+        top: 220px;
+        font-size: 60%;
+}
+
