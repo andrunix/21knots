@@ -1,0 +1,123 @@
+@import url(http://fonts.googleapis.com/css?family=Michroma);
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+  background: url(images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+		text-align: center;
+		margin-top: 60px;
+		padding: 0;
+		font: 10pt verdana, sans-serif;
+}
+
+footer {
+	clear: both;
+}
+
+#wrapper {
+	margin: 10px auto;
+	color: #d0d0d0;
+	width: 1280px;
+	/* text-align: center; */
+}
+
+#left_logo {
+	margin-top: 180px;
+	margin-left: 0px;
+	padding: 0;
+	float: left;
+	width: 470px;
+	color: rgba(200, 200, 200, 0.3);
+	font: bold 4em 'Michroma', sans-serif;
+  transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);  
+  -moz-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+}
+
+#main {
+	float: left;
+	background-color: #99cc99;
+	margin-left: -180px; 
+	width: 820px;
+	height: 480px;
+	background: url("images/salon.jpg");
+}
+
+#main_menu {
+	padding-left: 500px;
+}
+
+#main_menu li {
+  display: inline-block;;
+  list-style: none;
+  padding: 5px;
+  font: 14px verdana, sans-serif;
+}
+#main_menu a {
+	color: #d0d0d0;
+	text-decoration: none;
+}
+
+#main_menu a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+#main_description {
+	padding: 8px;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 14pt;
+	position: relative;
+	color: #e0e0e0;
+	background-color: rgba(10, 10, 10, 0.5);
+	left: 300px;
+	top: -180px;
+	width: 480px;
+	text-align: left;
+}
+
+#main_description a {
+	color: #d9d9e0;
+}
+#main_description a:hover {
+	color: #c9c9ff;
+}
+
+#models {
+	background-color: rgba(20, 20, 20, 0.5);
+	position: relative;
+	top: 100px;
+	left: 20px;
+	padding: 6px;
+	width: 262px;
+}
+
+#services {
+	padding 20px;
+	background-color: #e0e0e0;
+	color: black;
+	position: relative;
+	top: -600px;
+	left: 20px;
+	width: 440px;
+	border: 1px solid #333;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+}
+
+#services th {
+	background-color: #B0C4DE;
+}

@@ -1,9 +1,28 @@
-body {
-    background-color: #000000;
-    color: #fcfcfc;
-    font-family: helvetica, arial, sans serif;
-    font-size: 12pt;
+@import url(http://fonts.googleapis.com/css?family=Michroma);
+
+* {
+  margin: 20px;
+  padding: 0px;
 }
+
+html {
+  background: url(images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header, section, footer, aside, nav, article, figure, figcaption, hgroup {
+  display: block;
+}
+
+body {
+    color: #fcfcfc;
+    font: 12pt helvetica, arial, sans serif;
+    text-align: center;
+}
+
 a { color: #9cf; text-decoration: none; }
 a:link { color: #9cf; }
 a:hover { color: #ffffff; text-decoration: underline; }
@@ -13,11 +32,76 @@ dd { color: #ccc; font-size: 110% }
 
 td { font-size: 80%; padding: 4 4 4 4 }
 
+#main_header {
+  background: #fffbb9;
+  border: 1px #999;
+  padding: 20px;
+}
+#main_menu {
+  padding: 5px 15px;
+  text-align: right;
+}
+
+#main_menu li {
+  display: inline-block;;
+  list-style: none;
+  padding: 5px;
+  font: 14px verdana, sans-serif;
+}
+
+#main_section {
+  float: left;
+}
+
+#main_footer {
+  clear: both;
+  text-align: center;
+  padding: 20px;
+  border-top: 2px solid #999999;
+}
+
+#logotext {
+  display: block;
+  position: relative;
+  /*top: 100;*/
+  width: 400px;
+  margin-top: 100px;
+  /* margin: 50px auto; */
+  padding: 15px;
+  /* float: left; */
+
+  font: bold 4em 'Michroma', sans-serif;
+  color: rgba(150, 150, 150, 0.7);
+
+  transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);  
+  -moz-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  
+  border: 1px solid red;
+
+}
+
+#insideimage {
+  float: left;
+  /* background-image: url('images/salon.jpg');
+  background-repeat: no-repeat; */
+  position: absolute;
+  /* top: -240px; */
+        /* right: 130px; */
+  left: 400px;
+  /*
+        width: 400px;
+        height: 360px; 
+        */
+        /* border: 1px solid #ccc; */
+}
+
 #wrapper {
-  width: 900px;
-  margin: 0px auto;
-  padding: 6px;
-  /* border: 1px solid #ccc; */
+  /* width: 960px; */
+  margin: 15px auto;
+  text-align: left;
 }
 
 #content {
@@ -54,7 +138,6 @@ td { font-size: 80%; padding: 4 4 4 4 }
         */
         width: 316;
         height: 182;
-        /* border: 1px solid #ccc; */
 }
 
 #infobox {
@@ -69,19 +152,6 @@ td { font-size: 80%; padding: 4 4 4 4 }
         text-align: right;
 }
 
-#insideimage {
-  clear: both;
-  float: right;
-  background-image: url('images/interior2.jpg');
-  background-repeat: no-repeat;
-  position: relative;
-  top: -240px;
-        /* right: 130px; */
-  left: 400px;
-        width: 400px;
-        height: 360px; 
-        /* border: 1px solid #ccc; */
-}
 
 #stylists {
         /* position: absolute; */
