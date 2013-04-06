@@ -17,7 +17,7 @@ body {
 		text-align: center;
 		margin-top: 60px;
 		padding: 0;
-		font: 10pt verdana, sans-serif;
+		font: 14pt verdana, sans-serif;
 }
 
 footer {
@@ -120,4 +120,51 @@ footer {
 
 #services th {
 	background-color: #B0C4DE;
+}
+
+#stylists_div {
+	margin: 30px 40px auto;
+	padding: 20px 50px 10px 30px;
+	background-color: rgb(107, 110, 131);
+	color: #f0f0f0;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+#stylists_div h1 {
+	padding: 20px;
+}
+ 
+ul {
+  list-style-type: none;
+  width: 600px;
+}
+ 
+h3 {
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+}
+
+#stylists_div li {
+	text-align: left;
+}
+ 
+li img {
+	width: 100px;
+  float: left;
+  margin: 0 15px 0 0;
+}
+ 
+li p {
+  font: 200 12px/1.5 Helvetica, Verdana, Arial, sans-serif;
+}
+ 
+li {
+  padding: 10px;
+  overflow: auto;
+}
+ 
+li:hover {
+  background: #3f3930;
+  cursor: pointer;
 }
